@@ -1,0 +1,98 @@
+.crypto-tracker {
+    font-family: Arial, sans-serif;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 15px;
+    background-color: #ffffff;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .currency-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+  }
+  
+  .currency-icon {
+    display: flex;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+    align-items: center;
+    /* Replace with actual Bitcoin icon styles */
+  }
+  
+  .currency-code {
+    font-weight: bold;
+  }
+  
+  .currency-value {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #000;
+  letter-spacing:.1cap;
+  margin: 15px;
+
+  }
+  
+  .btc-amount {
+    display: block;
+  }
+  
+  .usd-value {
+    display: block;
+    color: #666666;
+  }
+  
+  .percentage-change {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+    border-radius: 3px;
+  }
+  
+  .negative {
+ background-color: #ff3b30;
+ color: white;
+  }
+  
+  .positive {
+   background-color: #4cd964;
+   color: #ffffff;
+  }
+.currency-data{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    
+}
+.icon_crypto{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+.days{
+display: flex;
+margin: 10px;
+font-size: 15px;
+justify-content: space-between
+}
+  .colrdays{
+    color: #000;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 7px;
+  }
+  .colrday{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #666666;
+    padding: 5px;
+    border-radius: 7px;
+  }

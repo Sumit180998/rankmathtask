@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space between the items */
+    padding: 15px; /* Add some padding */
+    background-color: #fff;
+    padding: auto;
+    border-radius: 10px;
+}
+.select{
+    color: rgb(202, 199, 186);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgb(204, 83, 83);
+}
+.Nselect{
+    
+   
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px;
+ 
+}

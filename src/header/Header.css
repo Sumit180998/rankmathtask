@@ -1,0 +1,30 @@
+.header {
+    /* width: 100%; */
+    background-color: #fff;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space between the items */
+    padding: 10px; /* Add some padding */
+  }
+  
+  .header p {
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Optional: Add styles for SVG icons */
+  .icon-button svg {
+    /* height: 24px;
+    width: 24px; */
+  }
+  
+  /* You may want to add :hover, :active, etc., styles for the buttons */
+  
