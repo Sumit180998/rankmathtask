@@ -67,8 +67,8 @@ const CryptoTracker = () => {
     <>
     <div className="crypto-tracker">
       <div className="currency-type">
-        <div className="currency-icon"><img src='https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=031' width={30}/>  <span style={{color:'black', marginLeft:"10px"}}>bitcoin</span></div> 
-        <div className="currency-code" style={{color:'bisque'}}>BTC</div>
+        <div className="currency-icon"><img src='https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=031' width={30}/>  <span style={{color:'black', marginLeft:"10px", fontWeight:"bold"}}>bitcoin</span></div> 
+        <div className="currency-code" style={{color:'#c5771a'}}>BTC</div>
       </div>
       <div className="currency-value">
         <span className="btc-amount">{bitcoinData?.btcAmount} BTC</span>
