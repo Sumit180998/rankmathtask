@@ -2,7 +2,7 @@
     display: flex;
     align-items: center; /* Align items vertically */
     justify-content: space-between; /* Space between the items */
-    padding: 15px; /* Add some padding */
+    padding: 20px; /* Add some padding */
     background-color: #fff;
     padding: auto;
     border-radius: 10px;
