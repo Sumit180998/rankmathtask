@@ -13,6 +13,7 @@
     border-radius: 50%;
     font-size: 25px;
     background-color: rgb(204, 83, 83);
+    margin: 5px;
 }
 .Nselect{
     
@@ -20,5 +21,6 @@
     border-radius: 50%;
     font-size: 25px;
     padding: 10px;
+    margin: 5px;
  
 }
